@@ -15,16 +15,22 @@
   },
   "files": {
     "requirements.txt": {
-      "checksum": "89769a3459207534fba930746e819c77"
+      "checksum": "b63d074477c66626594a21b3ff5473fc"
+    },
+    ".vscode/extensions.json": {
+      "checksum": "3a542a0e563631d736f764113b4284cc"
+    },
+    ".vscode/settings.json": {
+      "checksum": "ebb09f6f9bc4ab412466ed7927eeefe4"
     },
     "app.py": {
-      "checksum": "a5bba837fddbbce932655ec6c8dd1762"
+      "checksum": "25efab55255c789f0c75ba785fc875d6"
     },
     "app_layout.py": {
-      "checksum": "5b424ff975d7cc9d8c22295e460a354b"
+      "checksum": "9f3d8d4d349ce03e650e2053218ce3a4"
     },
     "modules/__init__.py": {
-      "checksum": "16633cacb2b8da2c778d495227506045"
+      "checksum": "af959801ae3f0fb76b392edb8ff3b155"
     },
     "modules/_feature_layout.py": {
       "checksum": "a0aff897a1b373f93d580a0b23bb031c"
@@ -58,6 +64,9 @@
     },
     "modules/slider_module.py": {
       "checksum": "8d721f7c71f3000be537a628e5e5fe9e"
+    },
+    "modules/statistic_module.py": {
+      "checksum": "f3fdc7bd140abb4af9e139661842e3b2"
     }
   }
 }
