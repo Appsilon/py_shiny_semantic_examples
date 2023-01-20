@@ -1,0 +1,8 @@
+shiny==0.2.9
+shiny_semantic==0.1.2
+matplotlib==3.6.3
+numpy==1.24.1
+
+black
+flake8
+isort

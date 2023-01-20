@@ -1,0 +1,24 @@
+name: semantic-ttest app linters
+
+on: [push]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10"]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install linting tools
+        run: pip install black
+
+      - name: Run black linter
+        run: black --check --line-length=100 semantic-ttest
