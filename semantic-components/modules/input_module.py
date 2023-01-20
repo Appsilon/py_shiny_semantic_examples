@@ -1,6 +1,5 @@
 from shiny import module, render
 from shiny.ui import output_text, tags
-
 from shiny_semantic.elements import icon, semantic_input
 
 from ._feature_layout import feature_section, feature_subsection
@@ -38,9 +37,15 @@ def ui():
             semantic_input("password", placeholder="Password", type="password"),
             semantic_input("icon", placeholder="With Icon", icon=icon("users")),
             semantic_input(
-                "label",
+                id="label",
                 placeholder="appsilon.com",
                 semantic_label="https://",
+            ),
+            semantic_input(
+                id="custom_label",
+                value="world",
+                semantic_label="hello",
+                semantic_label_class="orange",
             ),
             semantic_input("value", placeholder="Pre-populated", value="Some text"),
             semantic_input("numeric", placeholder="Numeric", type="number"),
