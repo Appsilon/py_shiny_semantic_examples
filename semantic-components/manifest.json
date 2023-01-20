@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "locale": "en_CA.UTF-8",
+  "metadata": {
+    "appmode": "python-shiny",
+    "entrypoint": "app"
+  },
+  "python": {
+    "version": "3.10.9",
+    "package_manager": {
+      "name": "pip",
+      "version": "22.3.1",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "89769a3459207534fba930746e819c77"
+    },
+    "app.py": {
+      "checksum": "a5bba837fddbbce932655ec6c8dd1762"
+    },
+    "app_layout.py": {
+      "checksum": "5b424ff975d7cc9d8c22295e460a354b"
+    },
+    "modules/__init__.py": {
+      "checksum": "16633cacb2b8da2c778d495227506045"
+    },
+    "modules/_feature_layout.py": {
+      "checksum": "a0aff897a1b373f93d580a0b23bb031c"
+    },
+    "modules/button_module.py": {
+      "checksum": "144e6720d5a6c7072a9648150b4b910a"
+    },
+    "modules/checkbox_module.py": {
+      "checksum": "5dffb99a3b83272c92fd91f2f4ca21b6"
+    },
+    "modules/dropdown_module.py": {
+      "checksum": "549ddb87d696d9f7b0cfa3834cb992da"
+    },
+    "modules/emoji_module.py": {
+      "checksum": "5d36cf40f6939074ba1fc757c8ebd11d"
+    },
+    "modules/flag_module.py": {
+      "checksum": "97c3336d212751c0aeb6aedfa1db3cd0"
+    },
+    "modules/header_module.py": {
+      "checksum": "0ab823fb8126b9d04d16b7773b8efe33"
+    },
+    "modules/icon_module.py": {
+      "checksum": "9b77dbda2bcf22dadf7e18540e3e8452"
+    },
+    "modules/input_module.py": {
+      "checksum": "ffa219af34e57a06fe549730c18ef11f"
+    },
+    "modules/modal_module.py": {
+      "checksum": "5de888f920845ef2eeba3a87a2fd2a6d"
+    },
+    "modules/slider_module.py": {
+      "checksum": "8d721f7c71f3000be537a628e5e5fe9e"
+    }
+  }
+}
