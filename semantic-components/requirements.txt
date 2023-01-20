@@ -1,0 +1,6 @@
+shiny==0.2.9
+shiny_semantic==0.1.0
+
+black
+flake8
+isort
