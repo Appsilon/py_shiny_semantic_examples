@@ -67,3 +67,16 @@ When developing a feature on a feature branch, you can make a manual deployment 
 ```
 rsconnect deploy shiny .
 ```
+
+### RSConnect step-by-step guide
+
+After `manifest.json` for the application is created, it is time to create a new deployment on RSConnect:
+
+0. Go to the RSConnect website
+1. On the content page (the default one) find "Publish" button and click it
+2. Use "import from git"
+3. Use URL for this repository: https://github.com/Appsilon/py_shiny_semantic_examples
+4. Hit next and select "main" branch
+5. Here is the crucial moment: rsconnect detects all manifest.json files in the repository. You need to select the application you wish to deploy from the dropdown
+6. Enter application name that will be displayed in the connect web ui and hit deploy
+7. Done, you may also want to specify custom URL endpoint for the app :tada:
