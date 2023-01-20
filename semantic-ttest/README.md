@@ -8,7 +8,10 @@ The goal of this app is to show how to use [shiny_semantic](https://github.com/A
 
 In the source code of this app you will find not only how `shiny_semantic` functions are used, but also how to easily style the application using semantic classes (which are available thanks to `shiny_semantic.page_semantic()` function which loads Semantic JS and CSS into the browser), as well as inline styling. Please note, that usage of inlince styling is considered to be a bad practice, and it is used here only for demonstration purposes.
 
-## How to run locally
+## Live Demo
+
+You can check out the [deployed application](https://connect.appsilon.com/py_shiny_ttest/), or 
+you can run it locally with the following commands (assuming that the terminal session is running in the same directory as this README file):
 
 ```bash
 python3 -m venv .venv
