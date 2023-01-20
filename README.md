@@ -1,4 +1,4 @@
-# py_shiny_semantic_examples
+# Example Applications of `shiny_semantic` in PyShiny
 Demo applications using Shiny for Python with Shiny Semantic
 
 ## How to use this repository?
