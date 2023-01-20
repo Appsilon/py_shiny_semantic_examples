@@ -22,6 +22,7 @@ app_ui = page_semantic(
         modules.slider.ui("slider_section"),
         modules.dropdown.ui("dropdown_section"),
         modules.checkbox.ui("checkbox_section"),
+        modules.statistic.ui("statistic_section"),
         tags.div(style="opacity: 0; height: 5rem;"),
     ),
     title="Shiny Semantic",
@@ -39,6 +40,7 @@ def app_server(input, output, session):
     modules.slider.server("slider_section")
     modules.dropdown.server("dropdown_section")
     modules.checkbox.server("checkbox_section")
+    modules.statistic.server("statistic_section")
 
 
 app = App(app_ui, app_server)
